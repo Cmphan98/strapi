@@ -4,7 +4,8 @@
   "info": {
     "singularName": "guest-book",
     "pluralName": "guest-books",
-    "displayName": "GuestBook"
+    "displayName": "GuestBook",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,15 +15,11 @@
     "name": {
       "type": "string"
     },
-    "image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": true
+    "congratulation": {
+      "type": "richtext"
+    },
+    "email": {
+      "type": "email"
     }
   }
 }
